@@ -18,7 +18,7 @@ public class Problem5 {
     //print average acceleration
     System.out.println("The average acceleration is " + calc);
 	   
-	}
+    }
 
 }
 
