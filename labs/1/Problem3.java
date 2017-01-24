@@ -19,6 +19,6 @@ public class Problem3 {
     //print out gratuity and total
     System.out.println("The gratuity is $" + grat + " and the total is $" + total);
 	   
-	}
+    }
 
 }
