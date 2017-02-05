@@ -16,6 +16,8 @@ public class Problem2 {
       String date = "";
       String date2 = "";
       
+	  // JA: A swirch statement is a better choice for this problem.
+	  // JA: For the secod date, you need to calculate day2 % 7, since it couldbe a number larger than 6
       //if user enters 0, day is set to Sunday
       if (day == 0){
          date = "Sunday";

@@ -9,7 +9,8 @@ public class Problem1 {
 		Scanner input = new Scanner(System.in);
 		
 		//user enters 3 numbers
-		System.out.print("Enter 3 numbers: ");
+		System.out.print("Enter 3 numbers: "); 
+		// JA: These numbers are supposed to be generated randomly
 		
 		int num1 = input.nextInt();
 		int num2 = input.nextInt();
