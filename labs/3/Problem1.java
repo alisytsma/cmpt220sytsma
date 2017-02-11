@@ -37,7 +37,7 @@ public class Problem1 {
       }
       
       //finds average
-      int average = sum / total;
+      int average = sum / total; // JA: This is an integer operation. You need to force it to be double.
      
       //prints data
       System.out.println("The number of positives is " + pos);
