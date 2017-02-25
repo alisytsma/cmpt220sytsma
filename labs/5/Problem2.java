@@ -30,7 +30,7 @@ public class Problem2 {
          store = step2 + store;
       }
       //mean of rest
-      double avg = store / x.length;
+      double avg = store / x.length; // JA: The denominator should be (x.length - 1)
       
       //square root
       double square = java.lang.Math.sqrt(avg);

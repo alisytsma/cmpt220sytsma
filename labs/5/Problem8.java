@@ -42,8 +42,8 @@ public class Problem8 {
          }
          //if column is higher than previous highest, replace
          if(column > cHighest){
-            cHighest = row;
-            columnIndex = i;
+            cHighest = row; // JA: This should be column
+            columnIndex = i; // JA: This should be j
          }
          //set back to 0
          column = 0;

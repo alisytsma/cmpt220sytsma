@@ -29,7 +29,7 @@ public class Problem4 {
       for(int i = 0; i <= list.length; i++){
          for(int j = 1; j + i < list.length; j++){
             //if the list doesn't need to be rearranged, sort is true
-            if(list[i] < list[i + j]){
+            if(list[i] < list[i + j]){ // JA: This should be <= to account for repeated numbers
                sort = true;
             //if it does, sort is false
             } else {
