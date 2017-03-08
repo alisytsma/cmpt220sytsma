@@ -11,6 +11,7 @@ public class Problem1 {
 
     }
     
+    //prints stats
     public static void print(Rectangle rectangle) {
        System.out.println("Width:    " + rectangle.width);
        System.out.println("Height:   " + rectangle.height);
@@ -25,29 +26,29 @@ class Rectangle {
    double width;
    double height;
     
-   /** Construct a circle with radius 1 */
+   //default rectangle
    Rectangle() {
       width = 1;
       height = 1;
    }
     
-   /** Construct a circle with a specified radius */
+   //if values entered
    Rectangle(double newWidth, double newHeight) {
       width = newWidth;
       height = newHeight;
    }
     
-   /** Return the area of this circle */
+   //return area of the rectangle
    double getArea() {
       return width * height;
    }
     
-    /** Return the perimeter of this circle */
+    //return the perimeter of the rectangle
    double getPerimeter() {
       return width + width + height + height;
    }
     
-   /** Set the radius for this circle */
+   //sets new width and height if entered
    void setStats(double newWidth, double newHeight) {
       width = newWidth;
       height = newHeight;
