@@ -15,9 +15,9 @@ public class Problem2 {
    
    //prints stats
    private static void print(GregorianCalendar gregorianCalendar) {
-      System.out.printf("Year: ", gregorianCalendar.get(GregorianCalendar.YEAR));
-      System.out.printf("Month: ", gregorianCalendar.get(GregorianCalendar.MONTH));
-      System.out.printf("Day: ", gregorianCalendar.get(GregorianCalendar.DAY_OF_MONTH));
+      System.out.print("Year: " + gregorianCalendar.get(GregorianCalendar.YEAR)); // JA
+      System.out.print("Month: " + gregorianCalendar.get(GregorianCalendar.MONTH)); // JA
+      System.out.print("Day: " + gregorianCalendar.get(GregorianCalendar.DAY_OF_MONTH)); // JA
       System.out.println();
    }
     
