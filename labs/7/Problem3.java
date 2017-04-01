@@ -4,7 +4,7 @@ public class Problem3 {
    public static void main(String[] args) {
       // TODO Auto-generated method stub
       //create course
-      Course1 course = new Course1("English 100");
+      Course course = new Course("English 100");
       //add students
       course.addStudent("Peter Jones");
       course.addStudent("Brian Smith");

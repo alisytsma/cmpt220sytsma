@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+
+// JA: There is no class to test this.
 class Course {
    //variables
     private String courseName;
